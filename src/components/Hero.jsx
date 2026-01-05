@@ -27,8 +27,8 @@ function Hero() {
           {/* CTA */}
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="/resume/Aravind_Resume.pdf"
-              download="Aravind_Resume.pdf"
+              href="/resume/Arav_resume.pdf"
+              download="Arav_resume.pdf"
               className="px-7 py-3 rounded-lg bg-gray-900 text-white text-sm font-medium hover:bg-gray-800 transition"
             >
               Download Resume
