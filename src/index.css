@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+/* Improve text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+
+@keyframes premiumGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-premium-gradient {
+  background: linear-gradient(
+    120deg,
+    #f8fafc,   /* slate */
+    #eef2ff,   /* soft indigo */
+    #f1f5f9    /* slate */
+  );
+  background-size: 300% 300%;
+  animation: premiumGradient 26s ease-in-out infinite;
+}
+
